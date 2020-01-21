@@ -1,5 +1,8 @@
 # Prometheus metrics to Honeycomb
 
+[![Build Status](https://travis-ci.org/hCaptcha/prometheus2honeycomb.svg?branch=master)](https://travis-ci.org/hCaptcha/prometheus2honeycomb)
+![Docker Build Status](https://img.shields.io/docker/build/hcaptcha/prometheus2honeycomb)
+
 > Tool to pull metrics from a url or file, and dump to a honeycomb dataset
 
 # Getting started
@@ -9,7 +12,10 @@
 Just run the built docker image like so:
 
 ```bash
-docker run --rm hcaptcha/prometheus2honeycomb python3 prometheus2honeycomb.py --url http://my-metrics-server:8000/metrics --ship
+docker run --rm hcaptcha/prometheus2honeycomb \
+  python3 prometheus2honeycomb.py \
+  --url http://my-metrics-server:8000/metrics \
+  --ship
 ```
 
 ## Without docker
@@ -43,20 +49,19 @@ You can also additional fields to the output of each event that gets sent to hon
 
 ## Building
 
-Currently this repo is manually built/deployed via the following steps:
+Currently this repo is manually built via the following steps:
 
 ```bash
 docker build -t hcaptcha/prometheus2honeycomb:latest .
-docker push hcaptcha/prometheus2honeycomb:latest
 ```
+
+It gets deployed to dockerhub via the dockerhub cloud build system.
 
 ## Lint
 
-To run the linter, run `./bin/lint`
+To run the linter, run `./bin/lint`.
 
-## Stop
-
-To stop the containers, run `./bin/stop`
+If `CI` is set to true, then it will fail if there are lint issues.  Otherwise, if it is not set, you can run this and it will reformat your code to match the standards
 
 ## Testing
 

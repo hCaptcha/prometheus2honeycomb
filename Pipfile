@@ -13,4 +13,4 @@ honeycomb-beeline = "==2.1.0"
 prometheus_client = "*"
 
 [requires]
-python_version = "3.6"
+python_version = "3.7"
