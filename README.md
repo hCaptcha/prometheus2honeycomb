@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/hCaptcha/prometheus2honeycomb.svg?branch=master)](https://travis-ci.org/hCaptcha/prometheus2honeycomb)
 ![Docker Build Status](https://img.shields.io/docker/build/hcaptcha/prometheus2honeycomb)
 
-> Tool to pull metrics from a url or file, and dump to a honeycomb dataset
+> Tool to pull prometheus metrics from a url or file, and dump to a honeycomb dataset
 
 # Getting started
 
