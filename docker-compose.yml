@@ -1,0 +1,17 @@
+---
+version: '3.3'
+services:
+
+  redis:
+    command: redis-server --dbfilename 'redis.rdb'
+    image: redis:3-alpine
+    volumes:
+      - ./redis/:/data
+    ports:
+      - 6379:6379
+
+  prometheus2honeycomb:
+    build: .
+    image: hcaptcha/prometheus2honeycomb:latest
+    volumes:
+      - ./:/app

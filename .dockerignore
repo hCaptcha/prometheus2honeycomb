@@ -1,0 +1,5 @@
+.vscode
+.mypy_cache
+.git
+docker-compose.yml
+azure-deploy.yml

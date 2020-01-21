@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+mypy = "*"
+yapf = "*"
+
+[packages]
+redis = "==3.2.1"
+honeycomb-beeline = "==2.1.0"
+prometheus_client = "*"
+
+[requires]
+python_version = "3.6"

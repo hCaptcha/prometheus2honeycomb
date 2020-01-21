@@ -1,0 +1,7 @@
+#!/bin/sh
+# Replace this with a python unit test
+
+cd $(dirname $0)/..
+
+# Run a simple e2e test to make sure the input doesn't break
+cat test/redis-metrics-example | python3 prometheus2honeycomb.py

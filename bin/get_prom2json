@@ -1,0 +1,12 @@
+#!/bin/sh
+# simply gets the prom2json tool to use for parsing the prometheus metrics into a json object
+
+# TODO: make these more dynamic
+RELEASE="${RELEASE:-1.2.2}"
+ARCH="${ARCH:-linux-386}"
+
+curl -sL https://github.com/prometheus/prom2json/releases/download/v${RELEASE}/prom2json-${RELEASE}.${ARCH}.tar.gz -o /tmp/prom2json.tgz
+tar xzf /tmp/prom2json.tgz -C /tmp
+cp /tmp/prom2json-*/prom2json /usr/local/bin/
+chmod +x /usr/local/bin/prom2json
+rm -rf /tmp/prom2json*

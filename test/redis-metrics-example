@@ -1,0 +1,582 @@
+# HELP go_gc_duration_seconds A summary of the GC invocation durations.
+# TYPE go_gc_duration_seconds summary
+go_gc_duration_seconds{quantile="0"} 2.42e-05
+go_gc_duration_seconds{quantile="0.25"} 2.79e-05
+go_gc_duration_seconds{quantile="0.5"} 3.03e-05
+go_gc_duration_seconds{quantile="0.75"} 4.54e-05
+go_gc_duration_seconds{quantile="1"} 0.0002263
+go_gc_duration_seconds_sum 0.008333803
+go_gc_duration_seconds_count 198
+# HELP exporter_scrape_duration_seconds Duration of scrape by the exporter
+# TYPE exporter_scrape_duration_seconds summary
+exporter_scrape_duration_seconds{quantile="0.5"} NaN
+exporter_scrape_duration_seconds{quantile="0.9"} NaN
+exporter_scrape_duration_seconds{quantile="0.99"} NaN
+# HELP go_goroutines Number of goroutines that currently exist.
+# TYPE go_goroutines gauge
+go_goroutines 8
+# HELP go_memstats_alloc_bytes Number of bytes allocated and still in use.
+# TYPE go_memstats_alloc_bytes gauge
+go_memstats_alloc_bytes 1.852032e+06
+# HELP go_memstats_alloc_bytes_total Total number of bytes allocated, even if freed.
+# TYPE go_memstats_alloc_bytes_total counter
+go_memstats_alloc_bytes_total 3.72842e+07
+# HELP go_memstats_buck_hash_sys_bytes Number of bytes used by the profiling bucket hash table.
+# TYPE go_memstats_buck_hash_sys_bytes gauge
+go_memstats_buck_hash_sys_bytes 1.452821e+06
+# HELP go_memstats_frees_total Total number of frees.
+# TYPE go_memstats_frees_total counter
+go_memstats_frees_total 329953
+# HELP go_memstats_gc_sys_bytes Number of bytes used for garbage collection system metadata.
+# TYPE go_memstats_gc_sys_bytes gauge
+go_memstats_gc_sys_bytes 2.377728e+06
+# HELP go_memstats_heap_alloc_bytes Number of heap bytes allocated and still in use.
+# TYPE go_memstats_heap_alloc_bytes gauge
+go_memstats_heap_alloc_bytes 1.852032e+06
+# HELP go_memstats_heap_idle_bytes Number of heap bytes waiting to be used.
+# TYPE go_memstats_heap_idle_bytes gauge
+go_memstats_heap_idle_bytes 6.2726144e+07
+# HELP go_memstats_heap_inuse_bytes Number of heap bytes that are in use.
+# TYPE go_memstats_heap_inuse_bytes gauge
+go_memstats_heap_inuse_bytes 3.366912e+06
+# HELP go_memstats_heap_objects Number of allocated objects.
+# TYPE go_memstats_heap_objects gauge
+go_memstats_heap_objects 20099
+# HELP go_memstats_heap_released_bytes_total Total number of heap bytes released to OS.
+# TYPE go_memstats_heap_released_bytes_total counter
+go_memstats_heap_released_bytes_total 6.1956096e+07
+# HELP go_memstats_heap_sys_bytes Number of heap bytes obtained from system.
+# TYPE go_memstats_heap_sys_bytes gauge
+go_memstats_heap_sys_bytes 6.6093056e+07
+# HELP go_memstats_last_gc_time_seconds Number of seconds since 1970 of last garbage collection.
+# TYPE go_memstats_last_gc_time_seconds gauge
+go_memstats_last_gc_time_seconds 1.5635896583792577e+09
+# HELP go_memstats_lookups_total Total number of pointer lookups.
+# TYPE go_memstats_lookups_total counter
+go_memstats_lookups_total 0
+# HELP go_memstats_mallocs_total Total number of mallocs.
+# TYPE go_memstats_mallocs_total counter
+go_memstats_mallocs_total 350052
+# HELP go_memstats_mcache_inuse_bytes Number of bytes in use by mcache structures.
+# TYPE go_memstats_mcache_inuse_bytes gauge
+go_memstats_mcache_inuse_bytes 55552
+# HELP go_memstats_mcache_sys_bytes Number of bytes used for mcache structures obtained from system.
+# TYPE go_memstats_mcache_sys_bytes gauge
+go_memstats_mcache_sys_bytes 65536
+# HELP go_memstats_mspan_inuse_bytes Number of bytes in use by mspan structures.
+# TYPE go_memstats_mspan_inuse_bytes gauge
+go_memstats_mspan_inuse_bytes 50256
+# HELP go_memstats_mspan_sys_bytes Number of bytes used for mspan structures obtained from system.
+# TYPE go_memstats_mspan_sys_bytes gauge
+go_memstats_mspan_sys_bytes 81920
+# HELP go_memstats_next_gc_bytes Number of heap bytes when next garbage collection will take place.
+# TYPE go_memstats_next_gc_bytes gauge
+go_memstats_next_gc_bytes 4.194304e+06
+# HELP go_memstats_other_sys_bytes Number of bytes used for other system allocations.
+# TYPE go_memstats_other_sys_bytes gauge
+go_memstats_other_sys_bytes 1.723875e+06
+# HELP go_memstats_stack_inuse_bytes Number of bytes in use by the stack allocator.
+# TYPE go_memstats_stack_inuse_bytes gauge
+go_memstats_stack_inuse_bytes 1.015808e+06
+# HELP go_memstats_stack_sys_bytes Number of bytes obtained from system for stack allocator.
+# TYPE go_memstats_stack_sys_bytes gauge
+go_memstats_stack_sys_bytes 1.015808e+06
+# HELP go_memstats_sys_bytes Number of bytes obtained by system. Sum of all system allocations.
+# TYPE go_memstats_sys_bytes gauge
+go_memstats_sys_bytes 7.2810744e+07
+# HELP process_cpu_seconds_total Total user and system CPU time spent in seconds.
+# TYPE process_cpu_seconds_total counter
+process_cpu_seconds_total 0.91
+# HELP process_max_fds Maximum number of open file descriptors.
+# TYPE process_max_fds gauge
+process_max_fds 1.048576e+06
+# HELP process_open_fds Number of open file descriptors.
+# TYPE process_open_fds gauge
+process_open_fds 8
+# HELP process_resident_memory_bytes Resident memory size in bytes.
+# TYPE process_resident_memory_bytes gauge
+process_resident_memory_bytes 1.3893632e+07
+# HELP process_start_time_seconds Start time of the process since unix epoch in seconds.
+# TYPE process_start_time_seconds gauge
+process_start_time_seconds 1.56356617159e+09
+# HELP process_virtual_memory_bytes Virtual memory size in bytes.
+# TYPE process_virtual_memory_bytes gauge
+process_virtual_memory_bytes 1.13627136e+08
+# HELP redis_allocator_active_bytes allocator_active_bytesmetric
+# TYPE redis_allocator_active_bytes gauge
+redis_allocator_active_bytes{addr="myredis-master:6379",alias="myredis"} 9.336188928e+09
+redis_allocator_active_bytes{addr="myredis-slave:6379",alias="myredis"} 5.106651136e+09
+# HELP redis_allocator_allocated_bytes allocator_allocated_bytesmetric
+# TYPE redis_allocator_allocated_bytes gauge
+redis_allocator_allocated_bytes{addr="myredis-master:6379",alias="myredis"} 5.116163856e+09
+redis_allocator_allocated_bytes{addr="myredis-slave:6379",alias="myredis"} 5.102799984e+09
+# HELP redis_allocator_resident_bytes allocator_resident_bytesmetric
+# TYPE redis_allocator_resident_bytes gauge
+redis_allocator_resident_bytes{addr="myredis-master:6379",alias="myredis"} 1.0431594496e+10
+redis_allocator_resident_bytes{addr="myredis-slave:6379",alias="myredis"} 6.200328192e+09
+# HELP redis_aof_base_size_bytes aof_base_size_bytesmetric
+# TYPE redis_aof_base_size_bytes gauge
+redis_aof_base_size_bytes{addr="myredis-master:6379",alias="myredis"} 4.0920120473e+10
+redis_aof_base_size_bytes{addr="myredis-slave:6379",alias="myredis"} 3.331450884e+09
+# HELP redis_aof_buffer_length aof_buffer_lengthmetric
+# TYPE redis_aof_buffer_length gauge
+redis_aof_buffer_length{addr="myredis-master:6379",alias="myredis"} 0
+redis_aof_buffer_length{addr="myredis-slave:6379",alias="myredis"} 0
+# HELP redis_aof_current_rewrite_duration_sec aof_current_rewrite_duration_secmetric
+# TYPE redis_aof_current_rewrite_duration_sec gauge
+redis_aof_current_rewrite_duration_sec{addr="myredis-master:6379",alias="myredis"} -1
+redis_aof_current_rewrite_duration_sec{addr="myredis-slave:6379",alias="myredis"} -1
+# HELP redis_aof_current_size_bytes aof_current_size_bytesmetric
+# TYPE redis_aof_current_size_bytes gauge
+redis_aof_current_size_bytes{addr="myredis-master:6379",alias="myredis"} 4.0920516252e+10
+redis_aof_current_size_bytes{addr="myredis-slave:6379",alias="myredis"} 3.331846663e+09
+# HELP redis_aof_delayed_fsync aof_delayed_fsyncmetric
+# TYPE redis_aof_delayed_fsync gauge
+redis_aof_delayed_fsync{addr="myredis-master:6379",alias="myredis"} 0
+redis_aof_delayed_fsync{addr="myredis-slave:6379",alias="myredis"} 49
+# HELP redis_aof_enabled aof_enabledmetric
+# TYPE redis_aof_enabled gauge
+redis_aof_enabled{addr="myredis-master:6379",alias="myredis"} 1
+redis_aof_enabled{addr="myredis-slave:6379",alias="myredis"} 1
+# HELP redis_aof_last_bgrewrite_status aof_last_bgrewrite_statusmetric
+# TYPE redis_aof_last_bgrewrite_status gauge
+redis_aof_last_bgrewrite_status{addr="myredis-master:6379",alias="myredis"} 1
+redis_aof_last_bgrewrite_status{addr="myredis-slave:6379",alias="myredis"} 1
+# HELP redis_aof_last_cow_size_bytes aof_last_cow_size_bytesmetric
+# TYPE redis_aof_last_cow_size_bytes gauge
+redis_aof_last_cow_size_bytes{addr="myredis-master:6379",alias="myredis"} 0
+redis_aof_last_cow_size_bytes{addr="myredis-slave:6379",alias="myredis"} 7.815168e+07
+# HELP redis_aof_last_rewrite_duration_sec aof_last_rewrite_duration_secmetric
+# TYPE redis_aof_last_rewrite_duration_sec gauge
+redis_aof_last_rewrite_duration_sec{addr="myredis-master:6379",alias="myredis"} -1
+redis_aof_last_rewrite_duration_sec{addr="myredis-slave:6379",alias="myredis"} 76
+# HELP redis_aof_last_write_status aof_last_write_statusmetric
+# TYPE redis_aof_last_write_status gauge
+redis_aof_last_write_status{addr="myredis-master:6379",alias="myredis"} 1
+redis_aof_last_write_status{addr="myredis-slave:6379",alias="myredis"} 1
+# HELP redis_aof_pending_bio_fsync aof_pending_bio_fsyncmetric
+# TYPE redis_aof_pending_bio_fsync gauge
+redis_aof_pending_bio_fsync{addr="myredis-master:6379",alias="myredis"} 0
+redis_aof_pending_bio_fsync{addr="myredis-slave:6379",alias="myredis"} 0
+# HELP redis_aof_pending_rewrite aof_pending_rewritemetric
+# TYPE redis_aof_pending_rewrite gauge
+redis_aof_pending_rewrite{addr="myredis-master:6379",alias="myredis"} 0
+redis_aof_pending_rewrite{addr="myredis-slave:6379",alias="myredis"} 0
+# HELP redis_aof_rewrite_buffer_length aof_rewrite_buffer_lengthmetric
+# TYPE redis_aof_rewrite_buffer_length gauge
+redis_aof_rewrite_buffer_length{addr="myredis-master:6379",alias="myredis"} 0
+redis_aof_rewrite_buffer_length{addr="myredis-slave:6379",alias="myredis"} 0
+# HELP redis_aof_rewrite_in_progress aof_rewrite_in_progressmetric
+# TYPE redis_aof_rewrite_in_progress gauge
+redis_aof_rewrite_in_progress{addr="myredis-master:6379",alias="myredis"} 0
+redis_aof_rewrite_in_progress{addr="myredis-slave:6379",alias="myredis"} 0
+# HELP redis_aof_rewrite_scheduled aof_rewrite_scheduledmetric
+# TYPE redis_aof_rewrite_scheduled gauge
+redis_aof_rewrite_scheduled{addr="myredis-master:6379",alias="myredis"} 0
+redis_aof_rewrite_scheduled{addr="myredis-slave:6379",alias="myredis"} 0
+# HELP redis_blocked_clients blocked_clientsmetric
+# TYPE redis_blocked_clients gauge
+redis_blocked_clients{addr="myredis-master:6379",alias="myredis"} 0
+redis_blocked_clients{addr="myredis-slave:6379",alias="myredis"} 0
+# HELP redis_cluster_enabled cluster_enabledmetric
+# TYPE redis_cluster_enabled gauge
+redis_cluster_enabled{addr="myredis-master:6379",alias="myredis"} 0
+redis_cluster_enabled{addr="myredis-slave:6379",alias="myredis"} 0
+# HELP redis_commands_duration_seconds_total Total amount of time in seconds spent per command
+# TYPE redis_commands_duration_seconds_total gauge
+redis_commands_duration_seconds_total{addr="myredis-master:6379",alias="myredis",cmd="command"} 0.001458
+redis_commands_duration_seconds_total{addr="myredis-master:6379",alias="myredis",cmd="config"} 0.002221
+redis_commands_duration_seconds_total{addr="myredis-master:6379",alias="myredis",cmd="del"} 0.002076
+redis_commands_duration_seconds_total{addr="myredis-master:6379",alias="myredis",cmd="eval"} 0.000942
+redis_commands_duration_seconds_total{addr="myredis-master:6379",alias="myredis",cmd="exec"} 0.047395
+redis_commands_duration_seconds_total{addr="myredis-master:6379",alias="myredis",cmd="exists"} 0.000189
+redis_commands_duration_seconds_total{addr="myredis-master:6379",alias="myredis",cmd="expire"} 0.000155
+redis_commands_duration_seconds_total{addr="myredis-master:6379",alias="myredis",cmd="get"} 0.008455
+redis_commands_duration_seconds_total{addr="myredis-master:6379",alias="myredis",cmd="hmset"} 0.001073
+redis_commands_duration_seconds_total{addr="myredis-master:6379",alias="myredis",cmd="info"} 0.001834
+redis_commands_duration_seconds_total{addr="myredis-master:6379",alias="myredis",cmd="latency"} 4.5e-05
+redis_commands_duration_seconds_total{addr="myredis-master:6379",alias="myredis",cmd="multi"} 0.000105
+redis_commands_duration_seconds_total{addr="myredis-master:6379",alias="myredis",cmd="ping"} 1e-06
+redis_commands_duration_seconds_total{addr="myredis-master:6379",alias="myredis",cmd="psync"} 0.239446
+redis_commands_duration_seconds_total{addr="myredis-master:6379",alias="myredis",cmd="replconf"} 0.037147
+redis_commands_duration_seconds_total{addr="myredis-master:6379",alias="myredis",cmd="rpush"} 0.000192
+redis_commands_duration_seconds_total{addr="myredis-master:6379",alias="myredis",cmd="scan"} 0.116466
+redis_commands_duration_seconds_total{addr="myredis-master:6379",alias="myredis",cmd="scard"} 5.7e-05
+redis_commands_duration_seconds_total{addr="myredis-master:6379",alias="myredis",cmd="sdiffstore"} 0.000618
+redis_commands_duration_seconds_total{addr="myredis-master:6379",alias="myredis",cmd="sinterstore"} 0.010233
+redis_commands_duration_seconds_total{addr="myredis-master:6379",alias="myredis",cmd="slowlog"} 2e-05
+redis_commands_duration_seconds_total{addr="myredis-master:6379",alias="myredis",cmd="smembers"} 0.000599
+redis_commands_duration_seconds_total{addr="myredis-master:6379",alias="myredis",cmd="zadd"} 0.000925
+redis_commands_duration_seconds_total{addr="myredis-master:6379",alias="myredis",cmd="zcount"} 0.008449
+redis_commands_duration_seconds_total{addr="myredis-master:6379",alias="myredis",cmd="zincrby"} 0.001058
+redis_commands_duration_seconds_total{addr="myredis-master:6379",alias="myredis",cmd="zinterstore"} 0.028187
+redis_commands_duration_seconds_total{addr="myredis-master:6379",alias="myredis",cmd="zrangebyscore"} 0.00025
+redis_commands_duration_seconds_total{addr="myredis-master:6379",alias="myredis",cmd="zrevrange"} 0.001533
+redis_commands_duration_seconds_total{addr="myredis-master:6379",alias="myredis",cmd="zrevrangebyscore"} 0.000351
+redis_commands_duration_seconds_total{addr="myredis-master:6379",alias="myredis",cmd="zscore"} 0.000693
+redis_commands_duration_seconds_total{addr="myredis-slave:6379",alias="myredis",cmd="config"} 0.002345
+redis_commands_duration_seconds_total{addr="myredis-slave:6379",alias="myredis",cmd="del"} 173.870162
+redis_commands_duration_seconds_total{addr="myredis-slave:6379",alias="myredis",cmd="exec"} 529.584457
+redis_commands_duration_seconds_total{addr="myredis-slave:6379",alias="myredis",cmd="expire"} 2.307164
+redis_commands_duration_seconds_total{addr="myredis-slave:6379",alias="myredis",cmd="hgetall"} 42.309675
+redis_commands_duration_seconds_total{addr="myredis-slave:6379",alias="myredis",cmd="hincrby"} 0.005599
+redis_commands_duration_seconds_total{addr="myredis-slave:6379",alias="myredis",cmd="hmset"} 25.473013
+redis_commands_duration_seconds_total{addr="myredis-slave:6379",alias="myredis",cmd="hset"} 0.000228
+redis_commands_duration_seconds_total{addr="myredis-slave:6379",alias="myredis",cmd="incr"} 6.8e-05
+redis_commands_duration_seconds_total{addr="myredis-slave:6379",alias="myredis",cmd="info"} 0.002991
+redis_commands_duration_seconds_total{addr="myredis-slave:6379",alias="myredis",cmd="latency"} 4.9e-05
+redis_commands_duration_seconds_total{addr="myredis-slave:6379",alias="myredis",cmd="multi"} 1.804492
+redis_commands_duration_seconds_total{addr="myredis-slave:6379",alias="myredis",cmd="pexpire"} 0.001875
+redis_commands_duration_seconds_total{addr="myredis-slave:6379",alias="myredis",cmd="ping"} 0.008213
+redis_commands_duration_seconds_total{addr="myredis-slave:6379",alias="myredis",cmd="rpush"} 1.9409
+redis_commands_duration_seconds_total{addr="myredis-slave:6379",alias="myredis",cmd="sadd"} 15.29166
+redis_commands_duration_seconds_total{addr="myredis-slave:6379",alias="myredis",cmd="scan"} 46.497035
+redis_commands_duration_seconds_total{addr="myredis-slave:6379",alias="myredis",cmd="sdiffstore"} 2.246771
+redis_commands_duration_seconds_total{addr="myredis-slave:6379",alias="myredis",cmd="select"} 1e-06
+redis_commands_duration_seconds_total{addr="myredis-slave:6379",alias="myredis",cmd="set"} 0.052894
+redis_commands_duration_seconds_total{addr="myredis-slave:6379",alias="myredis",cmd="setnx"} 0.000604
+redis_commands_duration_seconds_total{addr="myredis-slave:6379",alias="myredis",cmd="sinterstore"} 17.808338
+redis_commands_duration_seconds_total{addr="myredis-slave:6379",alias="myredis",cmd="slowlog"} 0.000232
+redis_commands_duration_seconds_total{addr="myredis-slave:6379",alias="myredis",cmd="srem"} 1.085779
+redis_commands_duration_seconds_total{addr="myredis-slave:6379",alias="myredis",cmd="sunionstore"} 3.16456
+redis_commands_duration_seconds_total{addr="myredis-slave:6379",alias="myredis",cmd="sync"} 1.579047
+redis_commands_duration_seconds_total{addr="myredis-slave:6379",alias="myredis",cmd="unlink"} 39.199296
+redis_commands_duration_seconds_total{addr="myredis-slave:6379",alias="myredis",cmd="zadd"} 48.439039
+redis_commands_duration_seconds_total{addr="myredis-slave:6379",alias="myredis",cmd="zincrby"} 48.876589
+redis_commands_duration_seconds_total{addr="myredis-slave:6379",alias="myredis",cmd="zinterstore"} 341.378502
+redis_commands_duration_seconds_total{addr="myredis-slave:6379",alias="myredis",cmd="zrem"} 0.009789
+# HELP redis_commands_processed_total commands_processed_totalmetric
+# TYPE redis_commands_processed_total gauge
+redis_commands_processed_total{addr="myredis-master:6379",alias="myredis"} 3.1415827e+07
+redis_commands_processed_total{addr="myredis-slave:6379",alias="myredis"} 4.911006e+07
+# HELP redis_commands_total Total number of calls per command
+# TYPE redis_commands_total gauge
+redis_commands_total{addr="myredis-master:6379",alias="myredis",cmd="command"} 1
+redis_commands_total{addr="myredis-master:6379",alias="myredis",cmd="config"} 29
+redis_commands_total{addr="myredis-master:6379",alias="myredis",cmd="del"} 30
+redis_commands_total{addr="myredis-master:6379",alias="myredis",cmd="eval"} 42
+redis_commands_total{addr="myredis-master:6379",alias="myredis",cmd="exec"} 144
+redis_commands_total{addr="myredis-master:6379",alias="myredis",cmd="exists"} 72
+redis_commands_total{addr="myredis-master:6379",alias="myredis",cmd="expire"} 56
+redis_commands_total{addr="myredis-master:6379",alias="myredis",cmd="get"} 1463
+redis_commands_total{addr="myredis-master:6379",alias="myredis",cmd="hmset"} 26
+redis_commands_total{addr="myredis-master:6379",alias="myredis",cmd="info"} 26
+redis_commands_total{addr="myredis-master:6379",alias="myredis",cmd="latency"} 26
+redis_commands_total{addr="myredis-master:6379",alias="myredis",cmd="multi"} 144
+redis_commands_total{addr="myredis-master:6379",alias="myredis",cmd="ping"} 1
+redis_commands_total{addr="myredis-master:6379",alias="myredis",cmd="psync"} 1
+redis_commands_total{addr="myredis-master:6379",alias="myredis",cmd="replconf"} 21287
+redis_commands_total{addr="myredis-master:6379",alias="myredis",cmd="rpush"} 15
+redis_commands_total{addr="myredis-master:6379",alias="myredis",cmd="scan"} 8299
+redis_commands_total{addr="myredis-master:6379",alias="myredis",cmd="scard"} 15
+redis_commands_total{addr="myredis-master:6379",alias="myredis",cmd="sdiffstore"} 15
+redis_commands_total{addr="myredis-master:6379",alias="myredis",cmd="sinterstore"} 75
+redis_commands_total{addr="myredis-master:6379",alias="myredis",cmd="slowlog"} 6
+redis_commands_total{addr="myredis-master:6379",alias="myredis",cmd="smembers"} 30
+redis_commands_total{addr="myredis-master:6379",alias="myredis",cmd="zadd"} 99
+redis_commands_total{addr="myredis-master:6379",alias="myredis",cmd="zcount"} 375
+redis_commands_total{addr="myredis-master:6379",alias="myredis",cmd="zincrby"} 99
+redis_commands_total{addr="myredis-master:6379",alias="myredis",cmd="zinterstore"} 45
+redis_commands_total{addr="myredis-master:6379",alias="myredis",cmd="zrangebyscore"} 15
+redis_commands_total{addr="myredis-master:6379",alias="myredis",cmd="zrevrange"} 15
+redis_commands_total{addr="myredis-master:6379",alias="myredis",cmd="zrevrangebyscore"} 30
+redis_commands_total{addr="myredis-master:6379",alias="myredis",cmd="zscore"} 99
+redis_commands_total{addr="myredis-slave:6379",alias="myredis",cmd="config"} 29
+redis_commands_total{addr="myredis-slave:6379",alias="myredis",cmd="del"} 2.635089e+06
+redis_commands_total{addr="myredis-slave:6379",alias="myredis",cmd="exec"} 7.779955e+06
+redis_commands_total{addr="myredis-slave:6379",alias="myredis",cmd="expire"} 1.288548e+06
+redis_commands_total{addr="myredis-slave:6379",alias="myredis",cmd="hgetall"} 1.218753e+06
+redis_commands_total{addr="myredis-slave:6379",alias="myredis",cmd="hincrby"} 922
+redis_commands_total{addr="myredis-slave:6379",alias="myredis",cmd="hmset"} 698978
+redis_commands_total{addr="myredis-slave:6379",alias="myredis",cmd="hset"} 173
+redis_commands_total{addr="myredis-slave:6379",alias="myredis",cmd="incr"} 28
+redis_commands_total{addr="myredis-slave:6379",alias="myredis",cmd="info"} 28
+redis_commands_total{addr="myredis-slave:6379",alias="myredis",cmd="latency"} 28
+redis_commands_total{addr="myredis-slave:6379",alias="myredis",cmd="multi"} 7.779955e+06
+redis_commands_total{addr="myredis-slave:6379",alias="myredis",cmd="pexpire"} 755
+redis_commands_total{addr="myredis-slave:6379",alias="myredis",cmd="ping"} 19187
+redis_commands_total{addr="myredis-slave:6379",alias="myredis",cmd="rpush"} 341550
+redis_commands_total{addr="myredis-slave:6379",alias="myredis",cmd="sadd"} 5.101446e+06
+redis_commands_total{addr="myredis-slave:6379",alias="myredis",cmd="scan"} 267271
+redis_commands_total{addr="myredis-slave:6379",alias="myredis",cmd="sdiffstore"} 584797
+redis_commands_total{addr="myredis-slave:6379",alias="myredis",cmd="select"} 2
+redis_commands_total{addr="myredis-slave:6379",alias="myredis",cmd="set"} 10266
+redis_commands_total{addr="myredis-slave:6379",alias="myredis",cmd="setnx"} 178
+redis_commands_total{addr="myredis-slave:6379",alias="myredis",cmd="sinterstore"} 1.731634e+06
+redis_commands_total{addr="myredis-slave:6379",alias="myredis",cmd="slowlog"} 56
+redis_commands_total{addr="myredis-slave:6379",alias="myredis",cmd="srem"} 284096
+redis_commands_total{addr="myredis-slave:6379",alias="myredis",cmd="sunionstore"} 5133
+redis_commands_total{addr="myredis-slave:6379",alias="myredis",cmd="sync"} 5
+redis_commands_total{addr="myredis-slave:6379",alias="myredis",cmd="unlink"} 2135
+redis_commands_total{addr="myredis-slave:6379",alias="myredis",cmd="zadd"} 7.174358e+06
+redis_commands_total{addr="myredis-slave:6379",alias="myredis",cmd="zincrby"} 5.415833e+06
+redis_commands_total{addr="myredis-slave:6379",alias="myredis",cmd="zinterstore"} 995291
+redis_commands_total{addr="myredis-slave:6379",alias="myredis",cmd="zrem"} 1175
+# HELP redis_config_maxclients config_maxclientsmetric
+# TYPE redis_config_maxclients gauge
+redis_config_maxclients{addr="myredis-master:6379",alias="myredis"} 10000
+redis_config_maxclients{addr="myredis-slave:6379",alias="myredis"} 10000
+# HELP redis_config_maxmemory config_maxmemorymetric
+# TYPE redis_config_maxmemory gauge
+redis_config_maxmemory{addr="myredis-master:6379",alias="myredis"} 0
+redis_config_maxmemory{addr="myredis-slave:6379",alias="myredis"} 0
+# HELP redis_connected_clients connected_clientsmetric
+# TYPE redis_connected_clients gauge
+redis_connected_clients{addr="myredis-master:6379",alias="myredis"} 22
+redis_connected_clients{addr="myredis-slave:6379",alias="myredis"} 2
+# HELP redis_connected_slave_lag_seconds Lag of connected slave
+# TYPE redis_connected_slave_lag_seconds gauge
+redis_connected_slave_lag_seconds{addr="myredis-master:6379",alias="myredis",slave_ip="10.244.1.25",slave_port="6379",slave_state="online"} 0
+# HELP redis_connected_slave_offset Offset of connected slave
+# TYPE redis_connected_slave_offset gauge
+redis_connected_slave_offset{addr="myredis-master:6379",alias="myredis",slave_ip="10.244.1.25",slave_port="6379",slave_state="online"} 424973
+# HELP redis_connections_received_total connections_received_totalmetric
+# TYPE redis_connections_received_total gauge
+redis_connections_received_total{addr="myredis-master:6379",alias="myredis"} 2339
+redis_connections_received_total{addr="myredis-slave:6379",alias="myredis"} 99
+# HELP redis_db_avg_ttl_seconds Avg TTL in seconds
+# TYPE redis_db_avg_ttl_seconds gauge
+redis_db_avg_ttl_seconds{addr="myredis-master:6379",alias="myredis",db="db0"} 19042.263
+redis_db_avg_ttl_seconds{addr="myredis-slave:6379",alias="myredis",db="db0"} 0
+# HELP redis_db_keys Total number of keys by DB
+# TYPE redis_db_keys gauge
+redis_db_keys{addr="myredis-master:6379",alias="myredis",db="db0"} 123901
+redis_db_keys{addr="myredis-master:6379",alias="myredis",db="db1"} 0
+redis_db_keys{addr="myredis-master:6379",alias="myredis",db="db10"} 0
+redis_db_keys{addr="myredis-master:6379",alias="myredis",db="db11"} 0
+redis_db_keys{addr="myredis-master:6379",alias="myredis",db="db12"} 0
+redis_db_keys{addr="myredis-master:6379",alias="myredis",db="db13"} 0
+redis_db_keys{addr="myredis-master:6379",alias="myredis",db="db14"} 0
+redis_db_keys{addr="myredis-master:6379",alias="myredis",db="db15"} 0
+redis_db_keys{addr="myredis-master:6379",alias="myredis",db="db2"} 0
+redis_db_keys{addr="myredis-master:6379",alias="myredis",db="db3"} 0
+redis_db_keys{addr="myredis-master:6379",alias="myredis",db="db4"} 0
+redis_db_keys{addr="myredis-master:6379",alias="myredis",db="db5"} 0
+redis_db_keys{addr="myredis-master:6379",alias="myredis",db="db6"} 0
+redis_db_keys{addr="myredis-master:6379",alias="myredis",db="db7"} 0
+redis_db_keys{addr="myredis-master:6379",alias="myredis",db="db8"} 0
+redis_db_keys{addr="myredis-master:6379",alias="myredis",db="db9"} 0
+redis_db_keys{addr="myredis-slave:6379",alias="myredis",db="db0"} 123901
+redis_db_keys{addr="myredis-slave:6379",alias="myredis",db="db1"} 0
+redis_db_keys{addr="myredis-slave:6379",alias="myredis",db="db10"} 0
+redis_db_keys{addr="myredis-slave:6379",alias="myredis",db="db11"} 0
+redis_db_keys{addr="myredis-slave:6379",alias="myredis",db="db12"} 0
+redis_db_keys{addr="myredis-slave:6379",alias="myredis",db="db13"} 0
+redis_db_keys{addr="myredis-slave:6379",alias="myredis",db="db14"} 0
+redis_db_keys{addr="myredis-slave:6379",alias="myredis",db="db15"} 0
+redis_db_keys{addr="myredis-slave:6379",alias="myredis",db="db2"} 0
+redis_db_keys{addr="myredis-slave:6379",alias="myredis",db="db3"} 0
+redis_db_keys{addr="myredis-slave:6379",alias="myredis",db="db4"} 0
+redis_db_keys{addr="myredis-slave:6379",alias="myredis",db="db5"} 0
+redis_db_keys{addr="myredis-slave:6379",alias="myredis",db="db6"} 0
+redis_db_keys{addr="myredis-slave:6379",alias="myredis",db="db7"} 0
+redis_db_keys{addr="myredis-slave:6379",alias="myredis",db="db8"} 0
+redis_db_keys{addr="myredis-slave:6379",alias="myredis",db="db9"} 0
+# HELP redis_db_keys_expiring Total number of expiring keys by DB
+# TYPE redis_db_keys_expiring gauge
+redis_db_keys_expiring{addr="myredis-master:6379",alias="myredis",db="db0"} 266
+redis_db_keys_expiring{addr="myredis-master:6379",alias="myredis",db="db1"} 0
+redis_db_keys_expiring{addr="myredis-master:6379",alias="myredis",db="db10"} 0
+redis_db_keys_expiring{addr="myredis-master:6379",alias="myredis",db="db11"} 0
+redis_db_keys_expiring{addr="myredis-master:6379",alias="myredis",db="db12"} 0
+redis_db_keys_expiring{addr="myredis-master:6379",alias="myredis",db="db13"} 0
+redis_db_keys_expiring{addr="myredis-master:6379",alias="myredis",db="db14"} 0
+redis_db_keys_expiring{addr="myredis-master:6379",alias="myredis",db="db15"} 0
+redis_db_keys_expiring{addr="myredis-master:6379",alias="myredis",db="db2"} 0
+redis_db_keys_expiring{addr="myredis-master:6379",alias="myredis",db="db3"} 0
+redis_db_keys_expiring{addr="myredis-master:6379",alias="myredis",db="db4"} 0
+redis_db_keys_expiring{addr="myredis-master:6379",alias="myredis",db="db5"} 0
+redis_db_keys_expiring{addr="myredis-master:6379",alias="myredis",db="db6"} 0
+redis_db_keys_expiring{addr="myredis-master:6379",alias="myredis",db="db7"} 0
+redis_db_keys_expiring{addr="myredis-master:6379",alias="myredis",db="db8"} 0
+redis_db_keys_expiring{addr="myredis-master:6379",alias="myredis",db="db9"} 0
+redis_db_keys_expiring{addr="myredis-slave:6379",alias="myredis",db="db0"} 266
+redis_db_keys_expiring{addr="myredis-slave:6379",alias="myredis",db="db1"} 0
+redis_db_keys_expiring{addr="myredis-slave:6379",alias="myredis",db="db10"} 0
+redis_db_keys_expiring{addr="myredis-slave:6379",alias="myredis",db="db11"} 0
+redis_db_keys_expiring{addr="myredis-slave:6379",alias="myredis",db="db12"} 0
+redis_db_keys_expiring{addr="myredis-slave:6379",alias="myredis",db="db13"} 0
+redis_db_keys_expiring{addr="myredis-slave:6379",alias="myredis",db="db14"} 0
+redis_db_keys_expiring{addr="myredis-slave:6379",alias="myredis",db="db15"} 0
+redis_db_keys_expiring{addr="myredis-slave:6379",alias="myredis",db="db2"} 0
+redis_db_keys_expiring{addr="myredis-slave:6379",alias="myredis",db="db3"} 0
+redis_db_keys_expiring{addr="myredis-slave:6379",alias="myredis",db="db4"} 0
+redis_db_keys_expiring{addr="myredis-slave:6379",alias="myredis",db="db5"} 0
+redis_db_keys_expiring{addr="myredis-slave:6379",alias="myredis",db="db6"} 0
+redis_db_keys_expiring{addr="myredis-slave:6379",alias="myredis",db="db7"} 0
+redis_db_keys_expiring{addr="myredis-slave:6379",alias="myredis",db="db8"} 0
+redis_db_keys_expiring{addr="myredis-slave:6379",alias="myredis",db="db9"} 0
+# HELP redis_evicted_keys_total evicted_keys_totalmetric
+# TYPE redis_evicted_keys_total gauge
+redis_evicted_keys_total{addr="myredis-master:6379",alias="myredis"} 0
+redis_evicted_keys_total{addr="myredis-slave:6379",alias="myredis"} 0
+# HELP redis_expired_keys_total expired_keys_totalmetric
+# TYPE redis_expired_keys_total gauge
+redis_expired_keys_total{addr="myredis-master:6379",alias="myredis"} 226
+redis_expired_keys_total{addr="myredis-slave:6379",alias="myredis"} 0
+# HELP redis_exporter_build_info redis exporter build_info
+# TYPE redis_exporter_build_info gauge
+redis_exporter_build_info{build_date="2019-03-21-19:43:10",commit_sha="3c1b6025e0dff7fc056cfd4da969523c3c7bf510",golang_version="go1.12.1",version="v0.31.0"} 1
+# HELP redis_exporter_last_scrape_duration_seconds The last scrape duration.
+# TYPE redis_exporter_last_scrape_duration_seconds gauge
+redis_exporter_last_scrape_duration_seconds 0.010267104
+# HELP redis_exporter_last_scrape_error The last scrape error status.
+# TYPE redis_exporter_last_scrape_error gauge
+redis_exporter_last_scrape_error 0
+# HELP redis_exporter_scrapes_total Current total redis scrapes.
+# TYPE redis_exporter_scrapes_total counter
+redis_exporter_scrapes_total 29
+# HELP redis_instance_info Information about the Redis instance
+# TYPE redis_instance_info gauge
+redis_instance_info{addr="myredis-master:6379",alias="myredis",os="Linux 4.15.0-1050-azure x86_64",redis_build_id="24f9cd9802bc0a06",redis_mode="standalone",redis_version="5.0.5",role="master"} 1
+redis_instance_info{addr="myredis-slave:6379",alias="myredis",os="Linux 4.15.0-1050-azure x86_64",redis_build_id="24f9cd9802bc0a06",redis_mode="standalone",redis_version="5.0.5",role="slave"} 1
+# HELP redis_instantaneous_input_kbps instantaneous_input_kbpsmetric
+# TYPE redis_instantaneous_input_kbps gauge
+redis_instantaneous_input_kbps{addr="myredis-master:6379",alias="myredis"} 0.02
+redis_instantaneous_input_kbps{addr="myredis-slave:6379",alias="myredis"} 0.04
+# HELP redis_instantaneous_ops_per_sec instantaneous_ops_per_secmetric
+# TYPE redis_instantaneous_ops_per_sec gauge
+redis_instantaneous_ops_per_sec{addr="myredis-master:6379",alias="myredis"} 0
+redis_instantaneous_ops_per_sec{addr="myredis-slave:6379",alias="myredis"} 0
+# HELP redis_instantaneous_output_kbps instantaneous_output_kbpsmetric
+# TYPE redis_instantaneous_output_kbps gauge
+redis_instantaneous_output_kbps{addr="myredis-master:6379",alias="myredis"} 0.04
+redis_instantaneous_output_kbps{addr="myredis-slave:6379",alias="myredis"} 0.05
+# HELP redis_keyspace_hits_total keyspace_hits_totalmetric
+# TYPE redis_keyspace_hits_total gauge
+redis_keyspace_hits_total{addr="myredis-master:6379",alias="myredis"} 2099
+redis_keyspace_hits_total{addr="myredis-slave:6379",alias="myredis"} 1.218753e+06
+# HELP redis_keyspace_misses_total keyspace_misses_totalmetric
+# TYPE redis_keyspace_misses_total gauge
+redis_keyspace_misses_total{addr="myredis-master:6379",alias="myredis"} 15
+redis_keyspace_misses_total{addr="myredis-slave:6379",alias="myredis"} 0
+# HELP redis_last_slow_execution_duration_seconds The amount of time needed for last slow execution, in seconds
+# TYPE redis_last_slow_execution_duration_seconds gauge
+redis_last_slow_execution_duration_seconds{addr="myredis-master:6379",alias="myredis"} 0.239446
+redis_last_slow_execution_duration_seconds{addr="myredis-slave:6379",alias="myredis"} 0.195619
+# HELP redis_latest_fork_usec latest_fork_usecmetric
+# TYPE redis_latest_fork_usec gauge
+redis_latest_fork_usec{addr="myredis-master:6379",alias="myredis"} 239187
+redis_latest_fork_usec{addr="myredis-slave:6379",alias="myredis"} 195489
+# HELP redis_loading_dump_file loading_dump_filemetric
+# TYPE redis_loading_dump_file gauge
+redis_loading_dump_file{addr="myredis-master:6379",alias="myredis"} 0
+redis_loading_dump_file{addr="myredis-slave:6379",alias="myredis"} 0
+# HELP redis_master_link_up Master link status on Redis slave
+# TYPE redis_master_link_up gauge
+redis_master_link_up{addr="myredis-slave:6379",alias="myredis"} 1
+# HELP redis_memory_max_bytes memory_max_bytesmetric
+# TYPE redis_memory_max_bytes gauge
+redis_memory_max_bytes{addr="myredis-master:6379",alias="myredis"} 0
+redis_memory_max_bytes{addr="myredis-slave:6379",alias="myredis"} 0
+# HELP redis_memory_used_bytes memory_used_bytesmetric
+# TYPE redis_memory_used_bytes gauge
+redis_memory_used_bytes{addr="myredis-master:6379",alias="myredis"} 5.115101904e+09
+redis_memory_used_bytes{addr="myredis-slave:6379",alias="myredis"} 5.101535744e+09
+# HELP redis_memory_used_lua_bytes memory_used_lua_bytesmetric
+# TYPE redis_memory_used_lua_bytes gauge
+redis_memory_used_lua_bytes{addr="myredis-master:6379",alias="myredis"} 52224
+redis_memory_used_lua_bytes{addr="myredis-slave:6379",alias="myredis"} 35840
+# HELP redis_memory_used_peak_bytes memory_used_peak_bytesmetric
+# TYPE redis_memory_used_peak_bytes gauge
+redis_memory_used_peak_bytes{addr="myredis-master:6379",alias="myredis"} 5.0178855904e+10
+redis_memory_used_peak_bytes{addr="myredis-slave:6379",alias="myredis"} 5.0126189152e+10
+# HELP redis_memory_used_rss_bytes memory_used_rss_bytesmetric
+# TYPE redis_memory_used_rss_bytes gauge
+redis_memory_used_rss_bytes{addr="myredis-master:6379",alias="myredis"} 1.043628032e+10
+redis_memory_used_rss_bytes{addr="myredis-slave:6379",alias="myredis"} 8.683081728e+09
+# HELP redis_net_input_bytes_total net_input_bytes_totalmetric
+# TYPE redis_net_input_bytes_total gauge
+redis_net_input_bytes_total{addr="myredis-master:6379",alias="myredis"} 1.785057e+06
+redis_net_input_bytes_total{addr="myredis-slave:6379",alias="myredis"} 4.5730810046e+10
+# HELP redis_net_output_bytes_total net_output_bytes_totalmetric
+# TYPE redis_net_output_bytes_total gauge
+redis_net_output_bytes_total{addr="myredis-master:6379",alias="myredis"} 3.352434266e+09
+redis_net_output_bytes_total{addr="myredis-slave:6379",alias="myredis"} 5.364709671e+10
+# HELP redis_process_id process_idmetric
+# TYPE redis_process_id gauge
+redis_process_id{addr="myredis-master:6379",alias="myredis"} 1
+redis_process_id{addr="myredis-slave:6379",alias="myredis"} 1
+# HELP redis_pubsub_channels pubsub_channelsmetric
+# TYPE redis_pubsub_channels gauge
+redis_pubsub_channels{addr="myredis-master:6379",alias="myredis"} 0
+redis_pubsub_channels{addr="myredis-slave:6379",alias="myredis"} 0
+# HELP redis_pubsub_patterns pubsub_patternsmetric
+# TYPE redis_pubsub_patterns gauge
+redis_pubsub_patterns{addr="myredis-master:6379",alias="myredis"} 0
+redis_pubsub_patterns{addr="myredis-slave:6379",alias="myredis"} 0
+# HELP redis_rdb_bgsave_in_progress rdb_bgsave_in_progressmetric
+# TYPE redis_rdb_bgsave_in_progress gauge
+redis_rdb_bgsave_in_progress{addr="myredis-master:6379",alias="myredis"} 0
+redis_rdb_bgsave_in_progress{addr="myredis-slave:6379",alias="myredis"} 0
+# HELP redis_rdb_changes_since_last_save rdb_changes_since_last_savemetric
+# TYPE redis_rdb_changes_since_last_save gauge
+redis_rdb_changes_since_last_save{addr="myredis-master:6379",alias="myredis"} 620
+redis_rdb_changes_since_last_save{addr="myredis-slave:6379",alias="myredis"} 846
+# HELP redis_rdb_current_bgsave_duration_sec rdb_current_bgsave_duration_secmetric
+# TYPE redis_rdb_current_bgsave_duration_sec gauge
+redis_rdb_current_bgsave_duration_sec{addr="myredis-master:6379",alias="myredis"} -1
+redis_rdb_current_bgsave_duration_sec{addr="myredis-slave:6379",alias="myredis"} -1
+# HELP redis_rdb_last_bgsave_duration_sec rdb_last_bgsave_duration_secmetric
+# TYPE redis_rdb_last_bgsave_duration_sec gauge
+redis_rdb_last_bgsave_duration_sec{addr="myredis-master:6379",alias="myredis"} 78
+redis_rdb_last_bgsave_duration_sec{addr="myredis-slave:6379",alias="myredis"} 77
+# HELP redis_rdb_last_bgsave_status rdb_last_bgsave_statusmetric
+# TYPE redis_rdb_last_bgsave_status gauge
+redis_rdb_last_bgsave_status{addr="myredis-master:6379",alias="myredis"} 1
+redis_rdb_last_bgsave_status{addr="myredis-slave:6379",alias="myredis"} 1
+# HELP redis_rdb_last_cow_size_bytes rdb_last_cow_size_bytesmetric
+# TYPE redis_rdb_last_cow_size_bytes gauge
+redis_rdb_last_cow_size_bytes{addr="myredis-master:6379",alias="myredis"} 1.22155008e+08
+redis_rdb_last_cow_size_bytes{addr="myredis-slave:6379",alias="myredis"} 8.8723456e+07
+# HELP redis_rdb_last_save_timestamp_seconds rdb_last_save_timestamp_secondsmetric
+# TYPE redis_rdb_last_save_timestamp_seconds gauge
+redis_rdb_last_save_timestamp_seconds{addr="myredis-master:6379",alias="myredis"} 1.563568279e+09
+redis_rdb_last_save_timestamp_seconds{addr="myredis-slave:6379",alias="myredis"} 1.563577302e+09
+# HELP redis_rejected_connections_total rejected_connections_totalmetric
+# TYPE redis_rejected_connections_total gauge
+redis_rejected_connections_total{addr="myredis-master:6379",alias="myredis"} 0
+redis_rejected_connections_total{addr="myredis-slave:6379",alias="myredis"} 0
+# HELP redis_slave_info Information about the Redis slave
+# TYPE redis_slave_info gauge
+redis_slave_info{addr="myredis-slave:6379",alias="myredis",master_host="myredis-master-0.myredis-headless.redis-prod.svc.cluster.local",master_port="6379",read_only="1"} 1
+# HELP redis_slowlog_last_id Last id of slowlog
+# TYPE redis_slowlog_last_id gauge
+redis_slowlog_last_id{addr="myredis-master:6379",alias="myredis"} 0
+redis_slowlog_last_id{addr="myredis-slave:6379",alias="myredis"} 3220
+# HELP redis_slowlog_length Total slowlog
+# TYPE redis_slowlog_length gauge
+redis_slowlog_length{addr="myredis-master:6379",alias="myredis"} 1
+redis_slowlog_length{addr="myredis-slave:6379",alias="myredis"} 128
+# HELP redis_start_time_seconds Start time of the Redis instance since unix epoch in seconds.
+# TYPE redis_start_time_seconds gauge
+redis_start_time_seconds{addr="myredis-master:6379",alias="myredis"} 1.563566252e+09
+redis_start_time_seconds{addr="myredis-slave:6379",alias="myredis"} 1.563393154e+09
+# HELP redis_total_system_memory_bytes total_system_memory_bytesmetric
+# TYPE redis_total_system_memory_bytes gauge
+redis_total_system_memory_bytes{addr="myredis-master:6379",alias="myredis"} 1.3517654016e+11
+redis_total_system_memory_bytes{addr="myredis-slave:6379",alias="myredis"} 1.35176536064e+11
+# HELP redis_up upmetric
+# TYPE redis_up gauge
+redis_up{addr="myredis-master:6379",alias="myredis"} 1
+redis_up{addr="myredis-slave:6379",alias="myredis"} 1
+# HELP redis_uptime_in_seconds uptime_in_secondsmetric
+# TYPE redis_uptime_in_seconds gauge
+redis_uptime_in_seconds{addr="myredis-master:6379",alias="myredis"} 23454
+redis_uptime_in_seconds{addr="myredis-slave:6379",alias="myredis"} 196552
+# HELP redis_used_cpu_sys used_cpu_sysmetric
+# TYPE redis_used_cpu_sys gauge
+redis_used_cpu_sys{addr="myredis-master:6379",alias="myredis"} 367.287252
+redis_used_cpu_sys{addr="myredis-slave:6379",alias="myredis"} 980.115813
+# HELP redis_used_cpu_sys_children used_cpu_sys_childrenmetric
+# TYPE redis_used_cpu_sys_children gauge
+redis_used_cpu_sys_children{addr="myredis-master:6379",alias="myredis"} 5.651759
+redis_used_cpu_sys_children{addr="myredis-slave:6379",alias="myredis"} 467.116594
+# HELP redis_used_cpu_user used_cpu_usermetric
+# TYPE redis_used_cpu_user gauge
+redis_used_cpu_user{addr="myredis-master:6379",alias="myredis"} 1191.627054
+redis_used_cpu_user{addr="myredis-slave:6379",alias="myredis"} 2168.659218
+# HELP redis_used_cpu_user_children used_cpu_user_childrenmetric
+# TYPE redis_used_cpu_user_children gauge
+redis_used_cpu_user_children{addr="myredis-master:6379",alias="myredis"} 42.119972
+redis_used_cpu_user_children{addr="myredis-slave:6379",alias="myredis"} 770.56734

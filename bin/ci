@@ -1,0 +1,9 @@
+#!/bin/sh
+set -exu
+
+# build via docker compose
+docker-compose build
+
+# run tests / lint
+docker-compose run -e CI=true prometheus2honeycomb ./bin/lint
+docker-compose run -e CI=true prometheus2honeycomb ./bin/test
